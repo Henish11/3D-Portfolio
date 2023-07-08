@@ -113,7 +113,7 @@ const navLinks = [
   
   const experiences = [
     {
-      title: "Frondend Developer",
+      title: "Frontend Developer",
       company_name: "PeacefulQode",
       icon: starbucks,
       iconBg: "#383E56",
@@ -125,7 +125,7 @@ const navLinks = [
       ],
     },
     {
-      title: "Frondend Developer",
+      title: "Frontend Developer",
       company_name: "OliveConcepts",
       icon: tesla,
       iconBg: "#E6DEDD",
