@@ -18,7 +18,9 @@ const Contact = () => {
   const [loading,setLoading] = useState(false)
 
   const handleSubmit = (e) =>{
+     return(
       e.preventDefault
+     )
   }
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
@@ -39,7 +41,7 @@ const Contact = () => {
                   <span className="text-white form-medium mb-4">Your message</span>
                   <textarea rows='7' name="message" value={form.message} onChange={(e)=>{e.target.value}} placeholder="What do you what to say?" className="bg-tertiary py-4 px-6 text-white placeholder:text-secondary rounded-lg outline-none border-none font-medium "/>
                 </label>
-                <button onClick={()=>{setLoading(true)}} type="submit" className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-blod shadow-md shadow-primary rounded-xl">
+                <button onClick={()=>{}} type="submit" className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-blod shadow-md shadow-primary rounded-xl">
                      {loading ? 'Sending...' : 'Send'}
                 </button>
             </form>
