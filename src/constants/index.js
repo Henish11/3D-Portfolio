@@ -47,8 +47,12 @@ const navLinks = [
       icon: mobile,
     },
     {
-      title: "MERN Developer",
+      title: "Frontend Developer",
       icon: backend,
+    },
+    {
+      title: "MERN Developer",
+      icon: creator,
     },
   ];
   
@@ -78,6 +82,10 @@ const navLinks = [
       icon: tailwind,
     },
     {
+      name: "docker",
+      icon: docker,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
     },
@@ -94,16 +102,12 @@ const navLinks = [
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "TypeScript",
       icon: typescript,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "figma",
+      icon: figma,
     },
   ];
   
@@ -156,6 +160,7 @@ const navLinks = [
       ],
       image: carrent,
       source_code_link: "https://github.com/Henish11/Swiggy-Clone",
+      live_link: "https://swiggy-clone-henish.vercel.app/",
     },
     {
       name: "3D - Portfolio",
@@ -176,7 +181,8 @@ const navLinks = [
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/Henish11/3D-Portfolio",
+      live_link: "https://henish-3d-portfolio.vercel.app/",
     },
 
   ];

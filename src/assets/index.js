@@ -8,7 +8,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 
 import css from "./tech/css.png";
-import docker from "./tech/Vercel.svg";
+import docker from "./tech/material-ui.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -20,12 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/github.png";
 import threejs from "./tech/threejs.svg";
+import versel from "./tech/Vercel.svg"
 
 import starbucks from "./company/peaceful.jpg";
 import tesla from "./company/olive-concepts.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import link from "./link.png"
 
 export {
   logo,
@@ -53,4 +55,6 @@ export {
   tesla,
   carrent,
   jobit,
+  versel,
+  link,
 };
