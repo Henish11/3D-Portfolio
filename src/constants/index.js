@@ -182,7 +182,7 @@ const navLinks = [
       ],
       image: jobit,
       source_code_link: "https://github.com/Henish11/3D-Portfolio",
-      live_link: "https://henish-3d-portfolio.vercel.app/",
+      live_link: "https://henish-patel.vercel.app/",
     },
 
   ];
