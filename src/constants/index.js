@@ -20,6 +20,7 @@ import {
     carrent,
     jobit,
     threejs,
+    Streamit,
   } from "../assets";
   
 const navLinks = [
@@ -163,6 +164,28 @@ const navLinks = [
       live_link: "https://swiggy-clone-henish.vercel.app/",
     },
     {
+      name: "Streamit",
+      description:
+        "StreamIt is a cutting-edge video streaming app powered by React.js, StreamIt allows users to explore an extensive library of TV shows, movies. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "redux",
+          color: "green-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: Streamit,
+      source_code_link: "https://github.com/Henish11/Streamit",
+      live_link: "https://streamit-henish.vercel.app/",
+    },
+    {
       name: "3D - Portfolio",
       description:
         "This is an immersive 3D portfolio website created with ReactJS, ThreeJS, and Framer Motion, featuring captivating 3D effects and seamless navigation.",
@@ -184,7 +207,6 @@ const navLinks = [
       source_code_link: "https://github.com/Henish11/3D-Portfolio",
       live_link: "https://henish-patel.vercel.app/",
     },
-
   ];
   
   export { services, technologies, experiences, projects, navLinks };

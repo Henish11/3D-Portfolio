@@ -28,6 +28,7 @@ import tesla from "./company/olive-concepts.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import link from "./link.png"
+import Streamit from './StreamIt.jpg'
 
 export {
   logo,
@@ -57,4 +58,5 @@ export {
   jobit,
   versel,
   link,
+  Streamit,
 };
