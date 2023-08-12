@@ -55,7 +55,7 @@ const Contact = () => {
       errors.name = 'Name Atleast have 2 Character'
     }
     if(!value.email){
-      errors.email = 'Email Can Not be Empty!'
+      errors.email = "Email Can't be Empty!"
     }else if(!regex.test(value.email)){
       errors.email = 'Email Format is not Valid'
     }
