@@ -60,7 +60,7 @@ const Contact = () => {
       errors.email = 'Email Format is not Valid'
     }
     if(!value.message){
-      errors.message = 'Message Can Not be Empty!'
+      errors.message = "Message Can't be Empty!"
     }else if(!regex.test(value.email)){
       errors.email = 'Email Format is not Valid'
     }
