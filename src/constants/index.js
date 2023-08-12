@@ -130,7 +130,7 @@ const navLinks = [
       company_name: "OliveConcepts",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Sept 2021 - July 2023",
+      date: "Sept 2021 - Present",
       points: [
         "Developed a scalable and high-performance React application that reduced page load time by 40% and improved overall user experience",
         "Implemented a reusable component library in React, resulting in a significant increase in development efficiency and consistency across multiple projects",
